@@ -16,7 +16,7 @@ Installation
   
   %git clone https://github.com/spark/core-communication-lib.git
 
-2. Go to core-firmware/inc and uncomment the line 54 of file spark_wiring_ipaddress.h with your favorite editor
+2. Note: This step is only required with older firmware - Go to core-firmware/inc and uncomment the line 54 of file spark_wiring_ipaddress.h with your favorite editor
 
 	// Overloaded cast operator to allow IPAddress objects to be used where a pointer
   
