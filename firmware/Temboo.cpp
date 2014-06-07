@@ -92,8 +92,8 @@ void TembooChoreo::setSettingsFileToRead(const String& filePath) {
 #include <Temboo.h>
 #endif
 
-#include "utility/TembooGlobal.h"
-#include "utility/TembooSession.h"
+#include "TembooGlobal.h"
+#include "TembooSession.h"
 
 static const char HTTP_CODE[] PROGMEM = "HTTP_CODE\x0A\x1F";
 
