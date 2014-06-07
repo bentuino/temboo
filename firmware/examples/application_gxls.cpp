@@ -1,5 +1,5 @@
 #include "application.h"
-#include "Temboo.h"
+#include "Temboo/Temboo.h"
 #include "TembooAccount.h" // Contains Temboo account information
 
 void runAppendRow(int sensorValue);
