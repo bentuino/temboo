@@ -20,6 +20,8 @@
 ###############################################################################
 */
 
+#define SPARK_PRODUCT_ID
+
 #include <string.h>
 #include <stdlib.h>
 #ifdef SPARK_PRODUCT_ID

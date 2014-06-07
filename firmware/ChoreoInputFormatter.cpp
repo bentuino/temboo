@@ -19,6 +19,7 @@
 #
 ###############################################################################
 */
+#define SPARK_PRODUCT_ID
 
 #include <stddef.h>
 #ifndef SPARK_PRODUCT_ID

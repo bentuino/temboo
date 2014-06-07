@@ -20,6 +20,8 @@
 ###############################################################################
 */
 
+#define SPARK_PRODUCT_ID
+
 #include <string.h>
 #ifndef SPARK_PRODUCT_ID
 #include <avr/pgmspace.h>
