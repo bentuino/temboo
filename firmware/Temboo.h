@@ -23,6 +23,7 @@
 #ifndef TEMBOO_H_
 #define TEMBOO_H_
 
+#define SPARK_PRODUCT_ID 
 #ifdef SPARK_PRODUCT_ID
 #define PROGMEM
 #define pgm_read_byte(address_short) (*address_short)
