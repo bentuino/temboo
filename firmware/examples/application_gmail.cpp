@@ -1,6 +1,17 @@
 #include "application.h"
 #include "Temboo/Temboo.h"
-#include "TembooAccount.h" // Contains Temboo account information
+
+/* 
+Copy the three #define values from the TembooAccount.h file you generated on 
+Teboo's web site or include the file in your Spark Cloud IDE
+
+The same TembooAccount.h file settings can be used for all Temboo SDK sketches.  
+Keeping your account information in a separate file means you can share the 
+main .ino file without worrying that you forgot to delete your credentials.
+*/
+#define TEMBOO_ACCOUNT "<your account name>"  // Your Temboo account name 
+#define TEMBOO_APP_KEY_NAME "<temboo app key name>"  // Your Temboo app key name
+#define TEMBOO_APP_KEY "<temboo app key>"  // Your Temboo app key
 
 void runAppendRow(int sensorValue);
 void runSendEmail(int sensorValue);
@@ -20,13 +31,15 @@ void setup() {
   
   // For debugging, wait until the serial console is connected.
   delay(4000);
-  while(!Serial.available());
-  Serial.println("OK");
+  //while(!Serial.available());
+  
+  Serial.println("Setup started...");
   delay(5000);
   // Initialize pins
   pinMode(A0, INPUT);
-  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
   Serial.println("Setup complete.\n");
+
 }
 
 void loop() {
