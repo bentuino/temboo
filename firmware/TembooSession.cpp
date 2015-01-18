@@ -26,6 +26,8 @@
 #include <stdlib.h>
 #ifdef SPARK_PRODUCT_ID
 #include "application.h"
+#undef min
+#undef max
 #else
 #include <avr/pgmspace.h>
 #endif
