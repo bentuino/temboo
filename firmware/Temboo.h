@@ -30,6 +30,8 @@
 #define strcat_P strcat
 #define PSTR
 #include "application.h"
+#undef min
+#undef max
 #else //SPARK_PRODUCT_ID
 #include <Arduino.h>
 #endif //SPARK_PRODUCT_ID
