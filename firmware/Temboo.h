@@ -19,6 +19,7 @@
 #
 ###############################################################################
 */
+#define SPARK_PRODUCT_ID
 
 #ifndef TEMBOO_H_
 #define TEMBOO_H_
