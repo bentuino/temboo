@@ -1,6 +1,6 @@
 {
 	"name": "Temboo",
-	"version": “1.2.8”,
+	"version": "1.2.8",
 	"author": "Temboo, Spark port by Karl Kaiser <karl@bentuino.com>",
 	"license": "Apache License, Version 2.0",
 	"description": "Temboo Library for Spark, for details about Temboo service visit temboo.com"
