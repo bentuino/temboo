@@ -23,13 +23,14 @@
 #ifndef TEMBOO_H_
 #define TEMBOO_H_
 
-#define SPARK_PRODUCT_ID 
 #ifdef SPARK_PRODUCT_ID
 #define PROGMEM
 #define pgm_read_byte(address_short) (*address_short)
 #define strcat_P strcat
 #define PSTR
 #include "application.h"
+#undef min
+#undef max
 #else //SPARK_PRODUCT_ID
 #include <Arduino.h>
 #endif //SPARK_PRODUCT_ID
@@ -73,9 +74,9 @@ class TembooChoreo : public Process {
 #include <IPAddress.h>
 #endif //SPARK_PRODUCT_ID
 
-#include "ChoreoInputSet.h"
-#include "ChoreoOutputSet.h"
-#include "ChoreoPreset.h"
+#include "utility/ChoreoInputSet.h"
+#include "utility/ChoreoOutputSet.h"
+#include "utility/ChoreoPreset.h"
 
 #define TEMBOO_ERROR_OK                   (0)
 #define TEMBOO_ERROR_ACCOUNT_MISSING      (201)
