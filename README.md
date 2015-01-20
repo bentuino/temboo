@@ -65,4 +65,12 @@ CPPSRC += $(TARGET_SRC_PATH)/application_gmail.cpp
 Testing
 -------
 
+This version SHA eb93840 was tested with web based Spark SDK using SPARK FIRMWARE V0.3.4  (OCT 21) 
+CHANGELOG:
+- core-firmware 6c98a17 
+- core-communication-lib d824a68 
+- core-common-lib 3cdaed3 
+
+Building this code was tested under Mac OS X 10.10 Yosemite following Spark's tool installation
+
 Building this code was tested under Windows 8.1 using cygwin and the MINGW version of the ARM GCC compiler tool chain.
