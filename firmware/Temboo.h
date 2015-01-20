@@ -74,9 +74,9 @@ class TembooChoreo : public Process {
 #include <IPAddress.h>
 #endif //SPARK_PRODUCT_ID
 
-#include "utility/ChoreoInputSet.h"
-#include "utility/ChoreoOutputSet.h"
-#include "utility/ChoreoPreset.h"
+#include "ChoreoInputSet.h"
+#include "ChoreoOutputSet.h"
+#include "ChoreoPreset.h"
 
 #define TEMBOO_ERROR_OK                   (0)
 #define TEMBOO_ERROR_ACCOUNT_MISSING      (201)
